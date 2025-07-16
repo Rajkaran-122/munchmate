@@ -1,78 +1,62 @@
-# MunchMate
+# 🍽️ Food Delivery Web Application
 
-MunchMate is a modern, user-friendly food delivery web application inspired by [MunchMate - Swipe & Eat](https://munchmate-swipe-eat-owhj.vercel.app/). It allows users to browse a variety of cuisines, add items to their cart, and place orders seamlessly. The project includes an admin dashboard for managing menu items and orders, as well as a robust backend for handling user authentication, orders, and more.
+A full-stack Food Delivery Web App designed to empower small-scale restaurants with a dedicated online ordering platform. Built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js), this project ensures a seamless experience for both customers and restaurant administrators.
 
-## Features
 
-- Browse and search for food items by category
-- Add items to cart and place orders
-- User authentication and order history
-- Admin dashboard for managing menu, orders, and users
-- Responsive design for mobile and desktop
+## 🌐 Live Demo
 
-## Tech Stack
+> ⚠️ **Note:** The app is hosted on [Render's free tier](https://render.com/), which puts the backend servers to sleep after 15 minutes of inactivity.  
+> As a result, the first request may take **15–60 seconds** to respond while the server wakes up. Subsequent requests will be fast.  
+> Please wait a few moments after opening the app — it will start working shortly.
 
-- **Frontend:** React, Vite, CSS
-- **Backend:** Node.js, Express, MongoDB
-- **Admin Panel:** React, Vite
+- 👨‍🍳 [Live Link](https://food-delivery-app-frontend-rzxm.onrender.com)
 
-## Getting Started
 
-### Prerequisites
-- Node.js (v14 or higher)
-- npm or yarn
-- MongoDB (local or cloud)
+## 🚀 Features
 
-### Installation
+### 👨‍🍳 User Module
+- User Registration and Login with secure JWT-based authentication
+- Browse categorized menus (e.g., Desserts, Chinese, etc.)
+- Add items to cart, place orders, and track delivery status
+- Make secure online payments using **Stripe**
 
-1. **Clone the repository:**
-   ```bash
-   git clone <repo-url>
-   cd food-delivery-app-main
-   ```
+### 🧑‍💼 Admin Module
+- Manage and update menu items
+- Track and update order statuses
+- View dashboard metrics and manage listings
 
-2. **Install dependencies:**
-   - For frontend:
-     ```bash
-     cd frontend
-     npm install
-     ```
-   - For backend:
-     ```bash
-     cd ../backend
-     npm install
-     ```
-   - For admin panel:
-     ```bash
-     cd ../admin
-     npm install
-     ```
+## 🔐 Security & Authentication
+- JWT for protected routes and session management
+- Passwords hashed with **bcrypt**
+- Stripe integration for secure and efficient payment processing
 
-3. **Configure environment variables:**
-   - Set up your MongoDB connection string and any other required environment variables in the backend.
+## 🛠️ Technologies Used
 
-4. **Run the applications:**
-   - Start the backend:
-     ```bash
-     npm start
-     ```
-   - Start the frontend:
-     ```bash
-     cd ../frontend
-     npm run dev
-     ```
-   - Start the admin panel:
-     ```bash
-     cd ../admin
-     npm run dev
-     ```
+| Layer         | Tech Stack                       |
+|--------------|----------------------------------|
+| Frontend     | React.js                         |
+| Backend      | Node.js, Express.js              |
+| Database     | MongoDB Atlas                    |
+| Authentication | JSON Web Tokens (JWT), bcrypt  |
+| Payments     | Stripe                           |
 
-## Folder Structure
+## 💡 Why This Project?
 
-- `frontend/` - User-facing web app
-- `backend/` - API and database
-- `admin/` - Admin dashboard
+Unlike large platforms like Swiggy and Zomato that overshadow smaller restaurants, this app provides a cost-effective, **single-restaurant solution** ideal for underserved regions and independent vendors. It ensures digital visibility and order management capabilities for small-scale food businesses.
 
-## License
+## 📈 Future Enhancements
+- Google Maps integration for real-time delivery tracking
+- Push notifications for order updates
+- Multilingual support for wider accessibility
 
-This project is for educational purposes and inspired by [MunchMate - Swipe & Eat](https://munchmate-swipe-eat-owhj.vercel.app/). 
+## 🧑‍💻 Developer
+
+**Naivedya Baranwal**  
+B.Tech CSE | NIT Mizoram  
+
+---
+
+### 📄 License
+This project is for academic and demonstration purposes.
+
+"# munchmate" 
