@@ -3,6 +3,7 @@ import './Navbar.css'
 import { assets } from '../../assets/assets'
 import { Link, useNavigate } from 'react-router-dom';
 import { StoreContext } from '../../context/StoreContext';
+import Logo from '../Logo/Logo';
 
 const Navbar = ({setShowLogin}) => {
 
@@ -18,7 +19,7 @@ const Navbar = ({setShowLogin}) => {
 
     return (    
         <div className='navbar'>
-           <Link to='/'> <img src={assets.logo} alt="" className="logo" /></Link>
+           <Link to='/'> <Logo /></Link>
             <ul className='navbar-menu'>
                 <Link to='/' onClick={()=>setMenu("home")} className={menu==="home"?"active":""}>home</Link>
                 <a href='#explore-menu' onClick={()=>setMenu("menu")} className={menu==="menu"?"active":""}>menu</a>

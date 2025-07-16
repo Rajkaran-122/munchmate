@@ -1,6 +1,6 @@
 import basket_icon from './basket_icon.png'
-import logo from './logo.png'
-import logoDark from './logoDark.png'
+import munchmateLogo from './munchmate-logo.svg'
+import munchmateLogoDark from './munchmate-logo-dark.svg'
 import search_icon from './search_icon.png'
 import menu_1 from './menu_1.png'
 import menu_2 from './menu_2.png'
@@ -62,8 +62,8 @@ import parcel_icon from './parcel_icon.png'
 
 
 export const assets = {
-    logo,
-    logoDark,
+    logo: munchmateLogo,
+    logoDark: munchmateLogoDark,
     basket_icon,
     search_icon,
     rating_starts,
@@ -85,267 +85,265 @@ export const assets = {
 
 export const menu_list = [
     {
-        menu_name: "Salad",
+        menu_name: "Burgers",
         menu_image: menu_1
     },
     {
-        menu_name: "Rolls",
+        menu_name: "Pizza",
         menu_image: menu_2
     },
     {
-        menu_name: "Deserts",
+        menu_name: "Desserts",
         menu_image: menu_3
     },
     {
-        menu_name: "Sandwich",
+        menu_name: "Drinks",
         menu_image: menu_4
     },
     {
-        menu_name: "Cake",
+        menu_name: "Asian",
         menu_image: menu_5
     },
     {
-        menu_name: "Pure Veg",
+        menu_name: "Healthy",
         menu_image: menu_6
     },
     {
-        menu_name: "Pasta",
+        menu_name: "Fast Food",
         menu_image: menu_7
     },
     {
-        menu_name: "Noodles",
+        menu_name: "Breakfast",
         menu_image: menu_8
     }]
 
 export const food_list = [
     {
         _id: "1",
-        name: "Greek salad",
+        name: "Classic Cheeseburger",
         image: food_1,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        description: "Juicy beef patty with melted cheese, fresh lettuce, and special sauce",
+        category: "Burgers"
     },
     {
         _id: "2",
-        name: "Veg salad",
+        name: "Veggie Burger",
         image: food_2,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        price: 10,
+        description: "Plant-based patty with avocado, sprouts, and vegan mayo",
+        category: "Burgers"
     }, {
         _id: "3",
-        name: "Clover Salad",
+        name: "Bacon Deluxe Burger",
         image: food_3,
         price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        description: "Premium beef with crispy bacon, cheddar, and caramelized onions",
+        category: "Burgers"
     }, {
         _id: "4",
-        name: "Chicken Salad",
+        name: "Chicken Burger",
         image: food_4,
-        price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        price: 14,
+        description: "Grilled chicken breast with lettuce, tomato, and ranch dressing",
+        category: "Burgers"
     }, {
         _id: "5",
-        name: "Lasagna Rolls",
+        name: "Margherita Pizza",
         image: food_5,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        price: 18,
+        description: "Fresh mozzarella, basil, and tomato sauce on crispy crust",
+        category: "Pizza"
     }, {
         _id: "6",
-        name: "Peri Peri Rolls",
+        name: "Pepperoni Pizza",
         image: food_6,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        price: 20,
+        description: "Classic pepperoni with melted cheese and tangy tomato sauce",
+        category: "Pizza"
     }, {
         _id: "7",
-        name: "Chicken Rolls",
+        name: "BBQ Chicken Pizza",
         image: food_7,
-        price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        price: 22,
+        description: "BBQ sauce, grilled chicken, red onions, and cilantro",
+        category: "Pizza"
     }, {
         _id: "8",
-        name: "Veg Rolls",
+        name: "Veggie Supreme Pizza",
         image: food_8,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        price: 19,
+        description: "Bell peppers, mushrooms, olives, and fresh vegetables",
+        category: "Pizza"
     }, {
         _id: "9",
-        name: "Ripple Ice Cream",
+        name: "Chocolate Brownie",
         image: food_9,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        price: 8,
+        description: "Rich chocolate brownie with walnuts and chocolate chips",
+        category: "Desserts"
     }, {
         _id: "10",
-        name: "Fruit Ice Cream",
+        name: "Ice Cream Sundae",
         image: food_10,
-        price: 22,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        price: 12,
+        description: "Vanilla ice cream with hot fudge, nuts, and cherry",
+        category: "Desserts"
     }, {
         _id: "11",
-        name: "Jar Ice Cream",
+        name: "Cheesecake Slice",
         image: food_11,
-        price: 10,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        price: 9,
+        description: "Creamy New York style cheesecake with berry compote",
+        category: "Desserts"
     }, {
         _id: "12",
-        name: "Vanilla Ice Cream",
+        name: "Tiramisu",
         image: food_12,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        price: 11,
+        description: "Italian dessert with coffee-soaked ladyfingers and mascarpone",
+        category: "Desserts"
     },
     {
         _id: "13",
-        name: "Chicken Sandwich",
+        name: "Fresh Smoothie",
         image: food_13,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        price: 7,
+        description: "Blend of fresh fruits with yogurt and honey",
+        category: "Drinks"
     },
     {
         _id: "14",
-        name: "Vegan Sandwich",
+        name: "Iced Coffee",
         image: food_14,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        price: 6,
+        description: "Cold brewed coffee with cream and vanilla syrup",
+        category: "Drinks"
     }, {
         _id: "15",
-        name: "Grilled Sandwich",
+        name: "Fresh Juice",
         image: food_15,
-        price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        price: 5,
+        description: "Cold-pressed orange, apple, and carrot juice blend",
+        category: "Drinks"
     }, {
         _id: "16",
-        name: "Bread Sandwich",
+        name: "Bubble Tea",
         image: food_16,
-        price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        price: 8,
+        description: "Milk tea with chewy tapioca pearls and brown sugar",
+        category: "Drinks"
     }, {
         _id: "17",
-        name: "Cup Cake",
+        name: "Pad Thai",
         image: food_17,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        price: 16,
+        description: "Stir-fried rice noodles with shrimp, tofu, and peanuts",
+        category: "Asian"
     }, {
         _id: "18",
-        name: "Vegan Cake",
+        name: "Sushi Roll",
         image: food_18,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        price: 14,
+        description: "Fresh salmon and avocado roll with soy sauce and wasabi",
+        category: "Asian"
     }, {
         _id: "19",
-        name: "Butterscotch Cake",
+        name: "Chicken Curry",
         image: food_19,
-        price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        price: 18,
+        description: "Spicy chicken curry with basmati rice and naan bread",
+        category: "Asian"
     }, {
         _id: "20",
-        name: "Sliced Cake",
+        name: "Ramen Bowl",
         image: food_20,
         price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        description: "Rich broth with noodles, soft-boiled egg, and chashu pork",
+        category: "Asian"
     }, {
         _id: "21",
-        name: "Garlic Mushroom ",
+        name: "Quinoa Bowl",
         image: food_21,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        price: 13,
+        description: "Nutritious quinoa with roasted vegetables and tahini dressing",
+        category: "Healthy"
     }, {
         _id: "22",
-        name: "Fried Cauliflower",
+        name: "Grilled Salmon",
         image: food_22,
-        price: 22,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        price: 24,
+        description: "Fresh grilled salmon with steamed vegetables and lemon",
+        category: "Healthy"
     }, {
         _id: "23",
-        name: "Mix Veg Pulao",
+        name: "Caesar Salad",
         image: food_23,
-        price: 10,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        price: 11,
+        description: "Crisp romaine lettuce with parmesan, croutons, and caesar dressing",
+        category: "Healthy"
     }, {
         _id: "24",
-        name: "Rice Zucchini",
+        name: "Acai Bowl",
         image: food_24,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
-    },
-    {
+        description: "Acai smoothie bowl topped with granola, berries, and honey",
+        category: "Healthy"
+    }, {
         _id: "25",
-        name: "Cheese Pasta",
+        name: "Chicken Wings",
         image: food_25,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
-    },
-    {
+        price: 14,
+        description: "Crispy wings tossed in buffalo sauce with ranch dip",
+        category: "Fast Food"
+    }, {
         _id: "26",
-        name: "Tomato Pasta",
+        name: "French Fries",
         image: food_26,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        price: 6,
+        description: "Golden crispy fries seasoned with sea salt and herbs",
+        category: "Fast Food"
     }, {
         _id: "27",
-        name: "Creamy Pasta",
+        name: "Chicken Nuggets",
         image: food_27,
-        price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        price: 8,
+        description: "Breaded chicken nuggets with honey mustard sauce",
+        category: "Fast Food"
     }, {
         _id: "28",
-        name: "Chicken Pasta",
+        name: "Hot Dog",
         image: food_28,
-        price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        price: 7,
+        description: "Grilled beef hot dog with mustard, ketchup, and onions",
+        category: "Fast Food"
     }, {
         _id: "29",
-        name: "Buttter Noodles",
+        name: "Avocado Toast",
         image: food_29,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        price: 9,
+        description: "Sourdough toast with smashed avocado, sea salt, and red pepper flakes",
+        category: "Breakfast"
     }, {
         _id: "30",
-        name: "Veg Noodles",
+        name: "Pancakes",
         image: food_30,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        price: 10,
+        description: "Fluffy pancakes with maple syrup, butter, and fresh berries",
+        category: "Breakfast"
     }, {
         _id: "31",
-        name: "Somen Noodles",
+        name: "Eggs Benedict",
         image: food_31,
-        price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        price: 15,
+        description: "Poached eggs on English muffin with hollandaise sauce",
+        category: "Breakfast"
     }, {
         _id: "32",
-        name: "Cooked Noodles",
+        name: "Breakfast Burrito",
         image: food_32,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        price: 12,
+        description: "Scrambled eggs, cheese, and salsa wrapped in a flour tortilla",
+        category: "Breakfast"
     }
 ]

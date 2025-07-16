@@ -1,13 +1,15 @@
 import React from 'react'
 import './Footer.css'
 import { assets } from '../../assets/assets'
+import Logo from '../Logo/Logo';
+
 function Footer() {
     return (
         <div className='footer' id='footer'>
             <div className="footer-content">
                 <div className="footer-content-left">
-                    <img src={assets.logoDark} alt="" />
-                    <p style={{wordSpacing:"2px"}}> <b>Naivedyam Now</b>  brings delicious meals from your favorite local restaurants straight to your doorstep. Enjoy great food, quick service, and hassle-free ordering—anytime, anywhere.</p>
+                    <Logo variant="dark" />
+                    <p style={{wordSpacing:"2px"}}> <b>MunchMate</b> connects you with the best local restaurants for fast, fresh food delivery. Order your favorite meals with just a few taps and enjoy delicious food delivered to your door.</p>
                     <div className="footer-social-icons">
                         <img src={assets.facebook_icon} alt="" />
                         <img src={assets.twitter_icon} alt="" />
@@ -26,13 +28,13 @@ function Footer() {
                 <div className="footer-content-right">
                     <h2>GET IN TOUCH</h2>
                     <ul>
-                        <li>+1-235-435-2454</li>
-                        <li>contact@naivedyam.com</li>
+                        <li>+1-800-MUNCH-MATE</li>
+                        <li>support@munchmate.com</li>
                     </ul>
                 </div>
             </div>
             <hr />
-            <p className="footer-copyright">Copyright 2025 © Naivedyam.com - All Right Reserved</p>
+            <p className="footer-copyright">Copyright 2025 © MunchMate.com - All Right Reserved</p>
         </div>
     )
 }

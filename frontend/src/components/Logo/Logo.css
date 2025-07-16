@@ -1,0 +1,52 @@
+.logo-container {
+  display: flex;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.logo-munch {
+  font-size: 24px;
+  color: #333;
+}
+
+.logo-mate {
+  font-size: 24px;
+  background: linear-gradient(90deg, #FF6B35 0%, #F7931E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Dark variant for footer */
+.logo-container.dark .logo-munch {
+  color: #fff;
+}
+
+.logo-container.dark .logo-mate {
+  background: linear-gradient(90deg, #FF6B35 0%, #F7931E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Responsive sizing */
+@media (max-width: 1050px) {
+  .logo-munch,
+  .logo-mate {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .logo-munch,
+  .logo-mate {
+    font-size: 18px;
+  }
+} 
